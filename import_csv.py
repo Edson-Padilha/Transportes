@@ -34,7 +34,6 @@ imprimir()
 print('Clientes de Santa Catarina')
 imprimir()
 
-print(clientes.info())
 cid = clientes.iloc[:,[0, 1, 4]]# Recebe lista de clientes com filtro de colunas
 print(cid.head())
 print(cid.shape)
